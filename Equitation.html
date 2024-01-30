@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Unbounded:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+ body { zoom: 95%;
+    margin: 0;
+    font-family: 'Unbounded', sans-serif; /* Utilisation de la police Unbounded pour le corps du texte */}
+
+.full-screen-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(178, 156, 156, 0.9);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .full-screen-image {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .macbook-pro {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.macbook-pro .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1728px;
+  height: 7227px;
+  position: relative;
+}
+
+.macbook-pro .text-wrapper {
+  position: absolute;
+  width: 1009px;
+  top: 1218px;
+  left: 250px;
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .l-quitation-est-une {
+  position: absolute;
+  width: 1352px;
+  top: 1522px;
+  left: 250px;
+  font-family: "undefined-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .overlap {
+  position: absolute;
+  width: 1660px;
+  height: 1117px;
+  top: 0;
+  left: 68px;
+}
+
+.macbook-pro .vector {
+  position: absolute;
+  width: 138px;
+  height: 49px;
+  top: 86px;
+  left: 727px;
+}
+
+.macbook-pro .lis-hartel-on {
+  position: absolute;
+  width: 1660px;
+  height: 1117px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.macbook-pro .group {
+  position: fixed;
+  width: 107px;
+  height: 1117px;
+  top: 0;
+  left: 0;
+}
+
+.macbook-pro .overlap-group {
+  position: relative;
+  width: 105px;
+  height: 1117px;
+}
+
+.macbook-pro .component {
+  position: absolute;
+  width: 105px;
+  height: 1117px;
+  top: 0;
+  left: 0;
+  background-color: #ff0000;
+}
+
+.macbook-pro .CHAMPIONNES-AU {
+  position: absolute;
+  width: 100px;
+  top: 497px;
+  left: 10px;
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .text-wrapper-2 {
+  position: absolute;
+  width: 463px;
+  top: 508px;
+  left: -185px;
+  transform: rotate(-90deg);
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .icon-menu {
+          position: absolute;
+          width: 33px;
+          height: 55px;
+          top: 87px;
+          left: 29px;
+      }
+
+        .icon-menu {
+            cursor: pointer;
+        }
+
+        .menu-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .menu-options {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: rgb(224, 123, 123); /* Ajoutez les styles que vous souhaitez pour le menu déroulant */
+            border: 1px solid hsl(246, 52%, 69%);
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+            min-width: 150px; /* Largeur minimale du menu */
+            text-align: left; /* Alignement du texte à gauche */
+        }
+
+        .menu-options a {
+            display: block;
+            padding: 15px 20px; /* Ajustez la taille du padding selon vos préférences */
+            text-decoration: none;
+            color: #333; /* Couleur du texte du menu */
+            transition: background-color 0.3s ease;
+            font-size: 30px; /* Ajustez la taille de la police selon vos préférences */
+        }
+
+        .menu-options a:hover {
+            background-color: #8fbaf2; /* Couleur de fond au survol */
+        }
+
+        .menu-container:hover .menu-options {
+            display: block;
+        }
+        /* Nouveaux styles pour les boutons */
+    .navigation-buttons {
+      text-align: center;
+      position: fixed;
+      bottom: 20px;
+      /* Espacement par rapport au bas de la fenêtre */
+      width: 100%;
+      z-index: 2;
+      align-items: center;
+      /* Assurez-vous que les boutons sont au-dessus de tout autre élément */
+    }
+
+    .navigation-buttons a {
+      display: inline-block;
+      padding: 20px 30px;
+      margin: 10 20px;
+      text-decoration: none;
+      background-color: #708aa5;
+      /* Couleur du fond du bouton */
+      color: #fff;
+      /* Couleur du texte du bouton */
+      border-radius: 5px;
+      /* Coins arrondis */
+    }
+    </style>
+  </head>
+  <body>
+    <div class="macbook-pro">
+      <div class="div">
+        <div class="text-wrapper">L' Équitation</div>
+        <p class="l-quitation-est-une">
+          L&#39;équitation est une activité sportive et de loisir qui consiste à monter à cheval pour pratiquer
+          différentes disciplines comme le saut d&#39;obstacles, le dressage, le concours complet, l&#39;endurance, le
+          TREC, le tourisme équestre, etc. L&#39;équitation est aussi un sport olympique et paralympique qui met en
+          valeur la complicité entre le cavalier et sa monture.<br /><br />L&#39;équitation féminin est très développé
+          en France, où l&#39;équitation est le premier sport féminin avec 83,6% de femmes licenciées à la Fédération
+          Française d&#39;Équitation (FFE). Les femmes sont présentes à tous les niveaux de la pratique, que ce soit en
+          loisir ou en compétition, et occupent des postes importants dans le milieu professionnel et fédéral. Par
+          exemple, Sophie Dubourg est la Directrice Technique Nationale de la FFE depuis 2013 et Valérie Dalodier est la
+          première femme présidente du Comité national de Tourisme équestre depuis 2021.<br /><br />L&#39;équitation
+          féminin a une longue histoire qui remonte au 16e siècle avec l&#39;apparition de la monte en amazone, qui
+          permettait aux femmes de monter à cheval avec une jupe. Depuis, les femmes ont su s&#39;imposer dans le monde
+          du cheval et se distinguer par leurs performances et leurs talents. Des femmes comme Calamity Jane, Pat Smythe
+          ou Pénélope Leprevost ont marqué l&#39;histoire de l&#39;équitation par leur audace, leur passion et leur
+          réussite.<br /><br /><br />La montée en amazone est une façon de monter à cheval avec les deux jambes du même
+          côté du cheval, qui a été adoptée par les femmes à partir du XVIe siècle. Cette position nécessitait une selle
+          spéciale, avec une ou plusieurs fourches pour soutenir les jambes de la cavalière. Elle permettait aux femmes
+          de suivre les chasses et de pratiquer le dressage, tout en portant des robes longues et élégantes. La montée
+          en amazone a connu son apogée à la fin du XIXe siècle, avec des écuyères de cirque et des personnalités comme
+          l&#39;impératrice Sissi  .<br /><br />La montée à califourchon, qui consiste à monter à cheval avec une jambe
+          de chaque côté du cheval, était considérée comme indécente pour les femmes jusqu&#39;au début du XXe siècle.
+          Elle nécessitait de porter un pantalon ou une jupe-culotte, ce qui était mal vu par la société. Elle offrait
+          cependant plus de stabilité et de liberté de mouvement à la cavalière, et lui permettait de pratiquer
+          d&#39;autres disciplines comme le saut d&#39;obstacles ou le concours complet. La montée à califourchon a été
+          popularisée par des femmes pionnières comme Coco Chanel ou la reine Elizabeth II .<br /><br />La révolution de
+          l&#39;équitation féminine a été marquée par l&#39;exploit de Lis Hartel, une cavalière danoise qui a remporté
+          la médaille d&#39;argent en dressage aux Jeux olympiques de 1952 à Helsinki. Elle a réalisé cette performance
+          en montant à califourchon, malgré sa paralysie partielle due à la poliomyélite. Elle a été aidée à monter et à
+          descendre de son cheval par son entraîneur et son mari. Elle a ainsi ouvert la voie aux femmes pour participer
+          aux compétitions équestres au plus haut niveau, et pour monter à cheval comme elles le souhaitaient .<br /><br />La
+          révolution de l&#39;équitation féminine avec Lis Hartel<br /><br />L&#39;équitation est un sport qui a
+          longtemps été dominé par les hommes, mais qui a connu une véritable révolution au milieu du XXe siècle grâce à
+          une femme exceptionnelle : Lis Hartel. Cette cavalière danoise a marqué l&#39;histoire en devenant la première
+          femme à remporter une médaille olympique en dressage, en 1952, malgré les obstacles qu&#39;elle a dû
+          surmonter.<br /><br />Lis Hartel est née en 1921 dans une famille passionnée d&#39;équitation. Elle commence à
+          monter à cheval dès son plus jeune âge et se révèle très douée pour le dressage, une discipline qui consiste à
+          faire exécuter au cheval des figures imposées ou libres avec élégance et harmonie. Elle participe à sa
+          première compétition internationale en 1939, à l&#39;âge de 18 ans, et se classe deuxième.<br /><br />Mais sa
+          carrière est interrompue par la Seconde Guerre mondiale, qui empêche la tenue des Jeux olympiques de 1940 et
+          de 1944. Pire encore, en 1944, elle contracte la poliomyélite, une maladie infectieuse qui paralyse ses jambes
+          et son bras gauche. Les médecins lui annoncent qu&#39;elle ne pourra plus jamais marcher, ni monter à
+          cheval.<br /><br />Lis Hartel refuse de se résigner et entame une longue rééducation. Avec l&#39;aide de son
+          mari, elle reprend le contact avec les chevaux et recommence à s&#39;entraîner. Elle doit apprendre à
+          compenser son handicap par une maîtrise parfaite de son équilibre et de ses aides (les signaux que le cavalier
+          donne au cheval pour le diriger). Elle doit aussi se faire aider pour monter et descendre de sa selle.<br /><br />En
+          1952, elle réalise l&#39;exploit de se qualifier pour les Jeux olympiques d&#39;Helsinki, où elle représente
+          le Danemark en dressage. À cette époque, les femmes ne sont pas autorisées à participer aux épreuves
+          équestres, sauf au dressage. Lis Hartel est donc la seule femme parmi les 18 concurrents. Elle monte son
+          fidèle cheval Jubilee, un hongre alezan qu&#39;elle a dressé elle-même.<br /><br />Lors de la compétition,
+          elle impressionne le jury par la qualité de ses figures et la complicité qu&#39;elle affiche avec son cheval.
+          Elle obtient la note de 74,5 % et décroche la médaille d&#39;argent, derrière le suisse Henri Chammartin. Elle
+          devient ainsi la première femme médaillée olympique en équitation, et la première athlète handicapée à
+          remporter une médaille aux Jeux olympiques.<br /><br />Sa performance est saluée par une ovation du public et
+          par le respect de ses adversaires masculins, qui l&#39;aident à descendre de son cheval. Elle reçoit également
+          les félicitations du roi Gustave VI Adolphe de Suède, qui lui remet sa médaille.<br /><br />Lis Hartel ne
+          s&#39;arrête pas là et continue à briller sur les terrains de dressage. En 1954, elle devient championne du
+          monde à Bâle, en Suisse. En 1956, elle participe aux Jeux olympiques de Stockholm, où elle remporte à nouveau
+          la médaille d&#39;argent, toujours avec Jubilee.<br /><br />Elle prend sa retraite sportive en 1959, après
+          avoir gagné plus de 300 prix au cours de sa carrière. Elle se consacre alors à l&#39;enseignement de
+          l&#39;équitation et à la promotion de l&#39;équithérapie, une méthode qui utilise le cheval comme outil de
+          réadaptation physique et psychologique pour les personnes handicapées ou en difficulté.<br /><br />Lis Hartel
+          est décédée en 2009, à l&#39;âge de 87 ans. Elle reste une source d&#39;inspiration pour tous les cavaliers et
+          cavalières du monde entier, et un symbole de la révolution de l&#39;équitation féminine.
+        </p>
+        <div class="overlap">
+          <img class="vector" src="" />
+          <img class="lis-hartel-on" src="image/lis-hartel-on-jubilee-2 1.png" />
+        </div>
+        <div class="group">
+          <div class="overlap-group">
+            <div class="component"><div class="CHAMPIONNES-AU"></div></div>
+            <div class="text-wrapper-2">CHAMPONNE AU SOMMET</div>
+            <div class="menu-container">
+                <img class="icon-menu" src="tennis/🦆 icon _menu_ (3).png" />
+               <!-- Menu Options -->
+               <div class="menu-options" id="menuOptions">
+                <!-- Ajoutez ici vos 6 choix de menu -->
+                <a href="acceuil.html">Accueil</a>
+                <a href="A PROPOS.html">A propos</a>
+                <a href="tenniss.html">Tennis</a>
+                <a href="sport a vélo .html">Bicyclette</a>
+                <a href="natation.html">Natation</a>
+                <a href="#">Équitation</a>
+                <a href="SKI.html">Ski</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="navigation-buttons">
+    <a href="natation.html">Page précédente</a>
+    <a href="SKI.html">Page suivante</a>
+    </div>
+    
+    <script>
+        function showFullScreenImage(image) {
+            // Créer un élément d'image en plein écran
+            var fullScreenImage = document.createElement('div');
+            fullScreenImage.classList.add('full-screen-image');
+            fullScreenImage.innerHTML = '<img src="' + image.src + '" alt="Image en plein écran" />';
+    
+            // Ajouter un style pour le plein écran
+            fullScreenImage.style.position = 'fixed';
+            fullScreenImage.style.top = '0';
+            fullScreenImage.style.left = '0';
+            fullScreenImage.style.width = '100%';
+            fullScreenImage.style.height = '100%';
+            fullScreenImage.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
+            fullScreenImage.style.display = 'flex';
+            fullScreenImage.style.justifyContent = 'center';
+            fullScreenImage.style.alignItems = 'center';
+    
+            // Ajouter un gestionnaire d'événements pour fermer l'image en plein écran lorsqu'on clique dessus
+            fullScreenImage.addEventListener('click', function () {
+                document.body.removeChild(fullScreenImage);
+            });
+    
+            // Ajouter l'élément d'image en plein écran au corps du document
+            document.body.appendChild(fullScreenImage);
+        }
+    </script>
+      </body>
+</html>

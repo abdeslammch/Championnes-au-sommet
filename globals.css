@@ -1,0 +1,362 @@
+body { zoom: 105%;
+    margin: 0;
+    font-family: 'Unbounded', sans-serif; /* Utilisation de la police Unbounded pour le corps du texte */
+}
+.full-screen-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(178, 156, 156, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.full-screen-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+.macbook-pro {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .macbook-pro .div {
+    background-color: #ffffff;
+    width: 1728px;
+    height: 8444px;
+    position: relative;
+  }
+  
+  .macbook-pro .overlap {
+    position: absolute;
+    width: 1352px;
+    height: 1005px;
+    top: 1168px;
+    left: 248px;
+  }
+  
+  .macbook-pro .femme-v-lo {
+    position: absolute;
+    width: 1009px;
+    top: 0;
+    left: 0;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .d-but-du-si-cle {
+    position: absolute;
+    width: 1352px;
+    top: 156px;
+    left: 0;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper {
+    font-weight: 700;
+  }
+  
+  .macbook-pro .span {
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 32px;
+  }
+  
+  .macbook-pro .text-wrapper-2 {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+  }
+  
+  .macbook-pro .alors-vers-le-milieu {
+    position: absolute;
+    width: 1352px;
+    top: 3227px;
+    left: 248px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .p-daler-malgr-l {
+    position: absolute;
+    width: 1352px;
+    top: 5563px;
+    left: 248px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .l-aussi-le-cyclisme {
+    position: absolute;
+    width: 1352px;
+    top: 5024px;
+    left: 248px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .overlap-group {
+    position: absolute;
+    width: 2000px;
+    height: 1000px;
+    top: 0;
+    left: -50px;
+    background-image: url(image/SBA-GettyImages-544048428-5866a3323df78ce2c3736609\ 1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+ 
+  .macbook-pro .ellipse-wrapper {
+    position: absolute;
+    width: 540px;
+    height: 528px;
+    top: 2550px;
+    left: 0px;
+    background-color: #34ca985c;
+    border-radius: 264px;
+  }
+  
+  .macbook-pro .ellipse {
+    position: absolute;
+    width: 486px;
+    height: 486px;
+    top: 21px;
+    left: 21px;
+  }
+  
+  .macbook-pro .img-wrapper {
+    position: absolute;
+    width: 575px;
+    height: 575px;
+    top: 2700px;
+    left: 1059px;
+    background-color: #34ca985c;
+    border-radius: 287.5px;
+  }
+  
+  .macbook-pro .img {
+    position: absolute;
+    width: 528px;
+    height: 528px;
+    top: 24px;
+    left: 24px;
+    object-fit: cover;
+  }
+  
+  .macbook-pro .text-wrapper-3 {
+    position: absolute;
+    width: 509px;
+    top: 2600px;
+    left: 600px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #34ca98;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .macbook-pro .text-wrapper-4 {
+    position: absolute;
+    width: 509px;
+    top: 3050px;
+    left: 505px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #34ca98;
+    font-size: 64px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .macbook-pro .p {
+    position: absolute;
+    width: 540px;
+    top: 2650px;
+    left: 600px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-5 {
+    position: absolute;
+    width: 509px;
+    top: 3100px;
+    left: 490px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .image {
+    position: absolute;
+    width: 1655px;
+    height: 827px;
+    top: 4153px;
+    left: 73px;
+  }
+  
+  .macbook-pro .group {
+    position: fixed;
+    width: 107px;
+    height: 1117px;
+    top: 0;
+    left: 0;
+  }
+  
+  .macbook-pro .overlap-group-2 {
+    position: relative;
+    width: 105px;
+    height: 1117px;
+  }
+  
+  .macbook-pro .component {
+    position: absolute;
+    width: 105px;
+    height: 1117px;
+    top: 0;
+    left: 0;
+    background-color: #34ca98;
+  }
+  
+  .macbook-pro .CHAMPIONNES-AU {
+    position: absolute;
+    width: 100px;
+    top: 497px;
+    left: 10px;
+    font-family: "Unbounded-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-6 {
+    position: absolute;
+    width: 463px;
+    top: 508px;
+    left: -185px;
+    transform: rotate(-90deg);
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .icon-menu {
+    position: absolute;
+    width: 33px;
+    height: 51px;
+    top: 119px;
+    left: 29px;
+    
+  }
+  .icon-menu {
+    cursor: pointer;
+}
+  
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(79, 173, 113); /* Ajoutez les styles que vous souhaitez pour le menu déroulant */
+    border: 1px solid hsl(246, 52%, 69%);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 150px; /* Largeur minimale du menu */
+    text-align: left; /* Alignement du texte à gauche */
+}
+
+.menu-options a {
+    display: block;
+    padding: 15px 20px; /* Ajustez la taille du padding selon vos préférences */
+    text-decoration: none;
+    color: #333; /* Couleur du texte du menu */
+    transition: background-color 0.3s ease;
+    font-size: 30px; /* Ajustez la taille de la police selon vos préférences */
+}
+
+.menu-options a:hover {
+    background-color: #8fbaf2; /* Couleur de fond au survol */
+}
+
+.menu-container:hover .menu-options {
+    display: block;
+}
+   /* Nouveaux styles pour les boutons */
+   .navigation-buttons {
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    /* Espacement par rapport au bas de la fenêtre */
+    width: 100%;
+    z-index: 2;
+    align-items: center;
+    /* Assurez-vous que les boutons sont au-dessus de tout autre élément */
+  }
+
+  .navigation-buttons a {
+    display: inline-block;
+    padding: 17px 25px;
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: #708aa5;
+    /* Couleur du fond du bouton */
+    color: #fff;
+    /* Couleur du texte du bouton */
+    border-radius: 5px;
+    /* Coins arrondis */
+  }
+  

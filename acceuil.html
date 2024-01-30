@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Unbounded:wght@300;400&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Unbounded', sans-serif; /* Utilisation de la police Unbounded pour le corps du texte */
+      background-color: #333; /* Fond noir pour l'arrière-plan */
+    }
+
+    header {
+      background-color: #2c3e50; /* Bleu foncé pour le header */
+      color: #ecf0f1; /* Blanc cassé */
+      padding: 10px;
+      text-align: center;
+      font-size: 45px;
+      font-family: 'Brush Script MT';
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Unbounded', sans-serif; 
+      
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: row; /* Sections alignées horizontalement */
+      transition: transform 0.5s; /* Transition pour l'effet d'élargissement des sections */
+    }
+
+    .icon {
+      position: absolute;
+      bottom: 40px;
+      transform: translateX(-50%);
+    }
+
+    .section {
+      flex: 1;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden; /* Assure que l'image de fond ne dépasse pas la section */
+      color: #ecf0f1; /* Blanc cassé */
+      text-align: center;
+      background-position: 50% 50%; /* Centrer l'image horizontalement et verticalement par défaut */
+      transition: 0.3s, flex 0.5s; /* Transition fluide pour le survol et l'effet d'élargissement */
+    }
+
+    .section:hover {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Léger assombrissement au survol */
+      flex: 2; /* Élargissement de la section au survol */
+      transition: flex 0.5s; /* Transition pour la réduction de la section lorsqu'on retire la souris */
+    }
+
+    #section0 {
+      background: #777; /* Gris */
+      background-size: cover;
+      background-position: 50% 50%;
+      text-decoration: none;
+      font-size: 30px;
+      font-family: 'Unbounded', sans-serif;
+    }
+    
+ 
+
+
+    #section1 {
+      background: url('image/20240128010752.png'); /* Rouge foncé */
+      background-size: cover;
+      background-position: 0% 0%; /* Ajuster le positionnement de l'image dans la section 1 */
+    }
+
+    #section2 {
+      background: url('image/20240128011116.png'); /* Vert émeraude */
+      background-size: cover;
+      background-position: 50% 50%; /* Ajuster le positionnement de l'image dans la section 2 */
+    }
+
+    #section3 {
+      background:url('image/20240128012211.png'); /* Jaune soleil */
+      background-size: cover;
+      background-position: 50% 50%; /* Ajuster le positionnement de l'image dans la section 3 */
+    }
+
+    #section4 {
+      background:url('image/20240128010822.png'); /* Violet foncé */
+      background-size: cover;
+      background-position: 50% 50%; /* Ajuster le positionnement de l'image dans la section 4 */
+    }
+
+    #section5 {
+      background: url('image/20240128010858.png'); /* Vert turquoise */
+      background-size: cover;
+      background-position: 50% 50%; /* Ajuster le positionnement de l'image dans la section 5 */
+    }
+
+    .bar-content {
+      font-size: 20px;
+      font-weight:bold ;
+    }
+  </style>
+  <title>Mon Site Web</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="votre-logo.png" alt="" style="height: 50px;">
+Championnes au sommet
+    </div>
+  </header>
+
+  <div class="container">
+    <a href="A PROPOS.html" target="_blank" class="section" id="section0">
+      <div class="bar">
+        <div class="bar-content"></div>
+        <h1> <br>À propos</br>
+        <br>&nbsp;Championnes&nbsp;&nbsp; </br>
+            <br>au&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </br>
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sommet </br></h1>
+      </div>
+    </a>
+    <a href="tenniss.html" target="_blank" class="section" id="section1">
+      <div class="bar">
+        <div class="bar-content"></div>
+      </div>
+      <img class="icon" src="image/tennis_sport_36381.png" alt="Icône de balle de tennis"
+        style="height: 60px; width: 60px">
+    </a>
+    <a href="sport a vélo .html" target="_blank" class="section" id="section2">
+      <div class="bar">
+        <div class="bar-content"></div>
+      </div>
+      <img class="icon" src="image/cycling_892371.png" alt="Icône de balle de tennis"
+      style="height: 60px; width: 60px">
+    </a>
+    <a href="natation.html" target="_blank" class="section" id="section3">
+      <div class="bar">
+        <div class="bar-content"></div>
+      </div>
+      <img class="icon" src="image/swimming_sport_36401.png" alt="Icône de balle de tennis"
+      style="height: 60px; width: 60px">
+    </a>
+    <a href="Equitation.html" target="_blank" class="section" id="section4">
+      <div class="bar">
+        <div class="bar-content"></div>
+      </div>
+      <img class="icon" src="image/téléchargement (1)1.png" alt="Icône de balle de tennis"
+      style="height: 60px; width: 60px;">
+    </a>
+    <a href="SKI.html" target="_blank" class="section" id="section5">
+      <div class="bar">
+        <div class="bar-content"></div>
+      </div>
+      <img class="icon" src="image/941502.png" alt="Icône de balle de tennis"
+      style="height: 60px; width: 60px">
+    </a>
+  </div>
+
+</body>
+
+</html>
+

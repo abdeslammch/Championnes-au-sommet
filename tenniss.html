@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Unbounded:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body { zoom: 105%;
+    margin: 0;
+    font-family: 'Unbounded', sans-serif; /* Utilisation de la police Unbounded pour le corps du texte */
+}
+.full-screen-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(178, 156, 156, 0.9);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .full-screen-image {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .macbook-pro {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.macbook-pro .div {
+  background-color: #ffffff;
+  width: 1728px;
+  height: 8857px;
+  position: relative;
+}
+
+.macbook-pro .element-sc {
+    position: absolute;
+    width: 2000px;
+    height: 1000px;
+    top: 0;
+    left: -100px;
+  object-fit: cover;
+}
+
+.macbook-pro .overlap {
+  position: absolute;
+  width: 1718px;
+  height: 1820px;
+  top: 1085px;
+  left: 10px;
+}
+
+.macbook-pro .le-d-but-les-couples {
+  position: absolute;
+  width: 1009px;
+  top: 0;
+  left: 238px;
+  font-family: 'Unbounded', sans-serif; 
+  font-weight: 600;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .au-cours-du-si {
+  position: absolute;
+  width: 1352px;
+  top: 245px;
+  left: 238px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .whatsapp-image {
+    width: 2000px;
+    height: 1000px;
+  top: 848px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.macbook-pro .overlap-group {
+  position: absolute;
+  width: 1728px;
+  height: 1442px;
+  top: 7415px;
+  left: 0;
+}
+
+.macbook-pro .innovation-mat {
+  position: absolute;
+  width: 1352px;
+  top: 0;
+  left: 250px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .text-wrapper {
+  font-weight: 700;
+}
+
+.macbook-pro .span {
+  font-family: "Roboto-Regular", Helvetica;
+}
+
+.macbook-pro .img {
+  position: absolute;
+  width: 2000px;
+    height: 1000px;
+  top: 508px;
+  left: 0;
+}
+
+.macbook-pro .overlap-2 {
+  position: absolute;
+  width: 1728px;
+  height: 2542px;
+  top: 4793px;
+  left: 0;
+}
+
+.macbook-pro .overlap-3 {
+  position: absolute;
+  width: 1728px;
+  height: 2542px;
+  top: 0;
+  left: 0;
+}
+
+.macbook-pro .suzanne-lenglen {
+  position: absolute;
+  width: 767px;
+  top: 0;
+  left: 250px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .text-wrapper-2 {
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 32px;
+}
+
+.macbook-pro .whatsapp-image-2 {
+  position: absolute;
+  width: 2000px;
+    height: 1000px;
+  top: 1465px;
+  left: 0;
+}
+
+.macbook-pro .suzanne-lenglen-2 {
+  position: absolute;
+  width: 684px;
+  height: 912px;
+  top: 114px;
+  left: 1044px;
+  object-fit: cover;
+}
+
+.macbook-pro .overlap-4 {
+  position: absolute;
+  width: 2000px;
+    height: 1000px;
+  top: 2982px;
+  left: 0;
+}
+
+.macbook-pro .evolution {
+  position: absolute;
+  width: 1352px;
+  top: 0;
+  left: 240px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .whatsapp-image-3 {
+    width: 2000px;
+    height: 950px;
+  top: 750px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.macbook-pro .group {
+  position: fixed;
+  width: 107px;
+  height: 1117px;
+  top: 0;
+  left: 0;
+}
+
+.macbook-pro .overlap-group-2 {
+  position: relative;                                
+  width: 105px;
+  height: 1117px;
+}
+
+.macbook-pro .component {
+  position: absolute;
+  width: 105px;
+  height: 1117px;
+  top: 0;
+  left: 0;
+  background-color: #f68260;
+}
+
+.macbook-pro .CHAMPIONNES-AU {
+  position: absolute;
+  width: 100px;
+  top: 497px;
+  left: 10px;
+  font-family: "Unbounded-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .text-wrapper-3 {
+  position: absolute;
+  width: 463px;
+  top: 508px;
+  left: -185px;
+  transform: rotate(-90deg);
+  font-family: 'Unbounded', sans-serif; 
+  font-weight: 500;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .icon-menu {
+          position: absolute;
+          width: 33px;
+          height: 55px;
+          top: 87px;
+          left: 29px;
+      }
+
+        .icon-menu {
+            cursor: pointer;
+        }
+
+        .menu-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .menu-options {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: rgb(246, 188, 147); /* Ajoutez les styles que vous souhaitez pour le menu déroulant */
+            border: 1px solid hsl(246, 52%, 69%);
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+            min-width: 150px; /* Largeur minimale du menu */
+            text-align: left; /* Alignement du texte à gauche */
+        }
+
+        .menu-options a {
+            display: block;
+            padding: 15px 20px; /* Ajustez la taille du padding selon vos préférences */
+            text-decoration: none;
+            color: #333; /* Couleur du texte du menu */
+            transition: background-color 0.3s ease;
+            font-size: 30px; /* Ajustez la taille de la police selon vos préférences */
+        }
+
+        .menu-options a:hover {
+            background-color: #8fbaf2; /* Couleur de fond au survol */
+        }
+
+        .menu-container:hover .menu-options {
+            display: block;
+        }
+        /* Nouveaux styles pour les boutons */
+    .navigation-buttons {
+      text-align: center;
+      position: fixed;
+      bottom: 50px;
+      /* Espacement par rapport au bas de la fenêtre */
+      width: 100%;
+      z-index: 2;
+      align-items: center;
+      /* Assurez-vous que les boutons sont au-dessus de tout autre élément */
+    }
+
+    .navigation-buttons a {
+      display: inline-block;
+      padding: 20px 40px;
+      margin: 10 20px;
+      text-decoration: none;
+      background-color: #708aa5;
+      /* Couleur du fond du bouton */
+      color: #fff;
+      /* Couleur du texte du bouton */
+      border-radius: 5px;
+      /* Coins arrondis */
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="macbook-pro">
+      <div class="div">
+        <img class="element-sc" src="tennis/1200x680_sc_gettyimages-615289942 1.png"onclick="showFullScreenImage(this)" />
+        <div class="overlap">
+          <p class="le-d-but-les-couples">LE DÉBUT : LES COUPLES DE TENNIS</p>
+          <p class="au-cours-du-si">
+            Au cours du 19e siècle, le tennis était largement perçu comme un sport masculin. Les tournois et les clubs
+            étaient principalement réservés aux hommes, limitant l&#39;accès des femmes à la compétition officielle.<br />Les
+            femmes ont commencé à s&#39;impliquer dans le tennis de manière informelle, souvent en jouant en couple avec
+            des partenaires masculins. Ces doubles mixtes ont permis aux femmes de gagner une reconnaissance progressive
+            dans le monde du tennis, tout en contournant les barrières sociales de l&#39;époque.<br /><br />En fait, ces
+            couples mixtes de tennis ont été confrontés à des défis sociaux majeurs. Les idées préconçues sur le rôle
+            traditionnel des femmes et les normes vestimentaires strictes ont souvent rendu difficile la participation
+            des femmes dans des tournois officiels. Mais au fil du temps, les tournois de tennis ont commencé à intégrer
+            des compétitions féminines, offrant aux femmes une plateforme pour démontrer leur talent. Les années 1920
+            ont vu l&#39;émergence de tournois exclusivement féminins, marquant une étape importante dans le tennis
+            féminin.
+          </p>
+          <img class="whatsapp-image" src="tennis/WhatsApp Image 2024-01-29 à 22.11 1.png"onclick="showFullScreenImage(this)" />
+        </div>
+        <div class="overlap-group">
+          <p class="innovation-mat">
+            <span class="text-wrapper">Innovation Matérielle et Technologique<br /></span>
+            <span class="span"
+              ><br />Au fil des années, l&#39;innovation des matériaux a joué un rôle important dans le design des
+              tenues de tennis féminines. L&#39;introduction de tissus légers, respirants et élastiques a amélioré le
+              confort et les performances des joueuses sur le court.<br
+            /></span>
+            <span class="text-wrapper"><br />Et Aujourd’hui?<br /><br /></span>
+            <span class="span"
+              >Dans le monde actuel du tennis féminin, les tenues des joueuses ont évolué pour allier style et
+              performance. Grâce à de nouveaux matériaux, les vêtements offrent un grand confort et facilitent les
+              mouvements. Les designs sont variés, allant des coupes classiques à des créations plus modernes,
+              permettant aux joueuses de montrer leur personnalité sur le court.</span
+            >
+          </p>
+          <img class="img" src="tennis/WhatsApp Image 2024-01-29 à 22.15.20_94ed9db9.jpg" onclick="showFullScreenImage(this)"/>
+        </div>
+        <div class="overlap-2">
+          <div class="overlap-3">
+            <p class="suzanne-lenglen">
+              <span class="text-wrapper">Suzanne Lenglen :<br /></span>
+              <span class="text-wrapper-2"
+                ><br />Suzanne Lenglen, est née le 24 mai 1899 à Paris, est une joueuse française emblématique des
+                années 1910-1920, a révolutionné le tennis féminin. Elle a défié les conventions en portant des tenues
+                plus courtes, légères et fonctionnelles. Ses robes à manches courtes et à ourlet au-dessus des chevilles
+                ont marqué un tournant dans la mode du tennis féminin.<br />À cause de cela, elle a dû faire face à des
+                critiques et à des controverses en raison de ses choix vestimentaires audacieux. À une époque où les
+                femmes étaient encore soumises à des normes strictes en matière de vêtements, Lenglen a défendu
+                l&#39;idée que la mode devait s&#39;adapter à l&#39;activité sportive.<br /><br />L&#39;audace de
+                Suzanne Lenglen a contribué à l&#39;émancipation des femmes dans ce sport. Son approche des vêtements de
+                tennis a symbolisé un rejet des normes sociales restrictives et a inspiré d&#39;autres femmes à
+                poursuivre leur passion pour le tennis sans compromettre leur liberté de mouvement. Cette influence a
+                stimulé des changements dans les règles vestimentaires du tennis féminin comme par exemple les
+                restrictions sur la longueur des jupes.</span
+              >
+            </p>
+            <img class="whatsapp-image-2" src="tennis/WhatsApp Image 2024-01-29 à 22.13 1.png"onclick="showFullScreenImage(this)" />
+          </div>
+          <img class="suzanne-lenglen-2" src="tennis/Suzanne_Lenglen_02 1.png" onclick="showFullScreenImage(this)"/>
+        </div>
+        <div class="overlap-4">
+          <p class="evolution">
+            <span class="text-wrapper">Evolution vestimentaire<br /></span>
+            <span class="text-wrapper-2"
+              ><br />L&#39;histoire du tennis féminin est étroitement liée à l&#39;évolution des vêtements portés par
+              les joueuses sur le court. Au fil des décennies, ces tenues ont subi des transformations significatives,
+              reflétant à la fois les progrès dans la mode sportive et les défis sociaux auxquels les femmes ont été
+              confrontées. Au début du 20e siècle, les femmes qui jouaient au tennis étaient contraintes de porter des
+              robes longues et contraignantes. Ces tenues, bien que élégantes selon les normes de l&#39;époque,
+              limitaient considérablement la liberté de mouvement des joueuses sur le court.<br /><br />Dans les
+              années 1910-1920, des figures pionnières comme Suzanne Lenglen ont commencé à remettre en question ces
+              normes vestimentaires restrictives. Lenglen, par exemple, a opté pour des tenues plus courtes et
+              fonctionnelles, permettant une plus grande agilité et un confort accru pendant le jeu.</span><br />
+          </p>
+          <img class="whatsapp-image-3 clickable" src="tennis/WhatsApp Image 2024-01-29 à 22.11 2.png" onclick="showFullScreenImage(this)"/>
+        </div>
+        <div class="group">
+          <div class="overlap-group-2">
+            <div class="component"><div class="CHAMPIONNES-AU"></div></div>
+            <div class="text-wrapper-3">CHAMPONNE AU SOMMET</div>
+            <div class="menu-container">
+            <img class="icon-menu" src="tennis/🦆 icon _menu_ (3).png" />
+           <!-- Menu Options -->
+           <div class="menu-options" id="menuOptions">
+            <!-- Ajoutez ici vos 6 choix de menu -->
+            <a href="acceuil.html">Accueil</a>
+            <a href="A PROPOS.html">A propos</a>
+            <a href="#">Tennis</a>
+            <a href="sport a vélo .html">Bicyclette</a>
+            <a href="natation.html">Natation</a>
+            <a href="Equitation.html">Équitation</a>
+            <a href="SKI.html">Ski</a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="navigation-buttons">
+<a href="A PROPOS.html">Page précédente</a>
+<a href="sport a vélo .html">Page suivante</a>
+</div>
+
+<script>
+    function showFullScreenImage(image) {
+        // Créer un élément d'image en plein écran
+        var fullScreenImage = document.createElement('div');
+        fullScreenImage.classList.add('full-screen-image');
+        fullScreenImage.innerHTML = '<img src="' + image.src + '" alt="Image en plein écran" />';
+
+        // Ajouter un style pour le plein écran
+        fullScreenImage.style.position = 'fixed';
+        fullScreenImage.style.top = '0';
+        fullScreenImage.style.left = '0';
+        fullScreenImage.style.width = '100%';
+        fullScreenImage.style.height = '100%';
+        fullScreenImage.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
+        fullScreenImage.style.display = 'flex';
+        fullScreenImage.style.justifyContent = 'center';
+        fullScreenImage.style.alignItems = 'center';
+
+        // Ajouter un gestionnaire d'événements pour fermer l'image en plein écran lorsqu'on clique dessus
+        fullScreenImage.addEventListener('click', function () {
+            document.body.removeChild(fullScreenImage);
+        });
+
+        // Ajouter l'élément d'image en plein écran au corps du document
+        document.body.appendChild(fullScreenImage);
+    }
+</script>
+</body>
+</html>
